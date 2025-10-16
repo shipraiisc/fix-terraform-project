@@ -1,13 +1,13 @@
 variable "aws_region" {
   type        = string
   description = "AWS region to deploy into"
-  default     = "us-west-2"
+  default     = "ca-central-1"
 }
 
 variable "ami_id" {
   type        = string
   description = "AMI ID to use for the instance"
-  default     = "ami-123456"
+  default     = "ami-029c5475368ac7adc"
 }
 
 variable "instance_type" {
@@ -17,7 +17,7 @@ variable "instance_type" {
 
 variable "key_name" {
   type        = string
-  description = "EC2 Key pair name"
+  description = "LAMPServerSC2"
 }
 
 variable "environment" {
@@ -27,5 +27,5 @@ variable "environment" {
 
 variable "vpc_id" {
   type        = string
-  description = "VPC ID to launch resources into"
+  description = "vpc-0295ba6c80998fff4"
 }
